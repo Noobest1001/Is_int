@@ -1,0 +1,19 @@
+num_str = ''
+  def numeric(N):
+    numa = "1234567890"
+    sign = "+-"
+    spa = " "
+    joined = numa + sign + spa
+    for num in N:
+      if num in joined:
+        num_str += num
+    return num_str
+  def Just_num(n):
+    num = "1234567890"
+    for nums in n:
+      if nums in num:
+        number = True
+    return number
+  def find_spa(num_str):
+    for space in num_str:
+      if space == Just_num(num_str):
